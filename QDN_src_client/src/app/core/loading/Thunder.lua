@@ -3,6 +3,22 @@
 -- 下载管理器
 --
 
+--update.manifest文件内容如下
+-- version:7
+-- version_name:1.1.7
+-- cdn_url:http://d.laiyagame.com/jinping/res/
+-- local m={
+-- 	{name="src/app/game/MyApp.lua"},
+-- 	{name="src/app/game/scenes/MainScene.lua"},
+-- 	{name="src/app/game/scenes/RoomScene.lua"},
+-- 	{name="src/app/game/ui/LoginLayer.lua"},
+--  {name="res/csb/RoomView/RoomInfoNode.csb"},
+--  {name="res/images/RoomView/wait/bg_sameip.png"},
+--  {name="res/ccb/operate.ccbi"}
+-- }
+-- return m
+
+
 local scheduler = require("framework.scheduler")
 
 local TASK_UPDATE_TIME = 0.1 --定时器检测时间(秒)
