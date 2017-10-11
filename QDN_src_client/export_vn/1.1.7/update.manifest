@@ -1,0 +1,10 @@
+version:7
+version_name:1.1.7
+cdn_url:http://d.laiyagame.com/jinping/res/
+local m={
+	{name="src/app/game/MyApp.lua"},
+	{name="src/app/game/scenes/MainScene.lua"},
+	{name="src/app/game/scenes/RoomScene.lua"},
+	{name="src/app/game/ui/LoginLayer.lua"},
+}
+return m

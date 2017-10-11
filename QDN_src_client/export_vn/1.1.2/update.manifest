@@ -1,0 +1,27 @@
+version:2
+version_name:1.1.2
+cdn_url:http://d.laiyagame.com/jinping/res/
+local m={
+	{name="src/app/common/component/CardFactory.lua"},
+	{name="src/app/common/component/sprites/HandTile.lua"},
+	{name="src/app/common/component/sprites/OutTile.lua"},
+	{name="src/app/common/component/sprites/OutTiles.lua"},
+	{name="src/app/common/component/sprites/Tile.lua"},
+	{name="src/app/common/component/sprites/TileItem.lua"},
+	{name="src/app/common/component/sprites/TileItemGroup.lua"},
+	{name="src/app/core/manager/audio_manager.lua"},
+	{name="src/app/core/manager/SceneManager.lua"},
+	{name="src/app/game/MyApp.lua"},
+	{name="src/app/game/scenes/RoomScene.lua"},
+	{name="src/app/game/ui/main/LayerResultOneRound.lua"},
+	{name="src/app/game/ui/room/DingQueNode.lua"},
+	{name="src/app/game/ui/room/DismissRoomLayer.lua"},
+	{name="src/app/game/ui/room/PlayerIcon.lua"},
+	{name="src/app/game/ui/room/ReturnRoom.lua"},
+	{name="src/app/game/ui/room/RoomInfoNode.lua"},
+	{name="src/app/game/ui/room/ServerHandTile.lua"},
+	{name="res/csb/LobbyView/Layer_club_clubdetail.csb"},
+	{name="res/csb/RoomView/RoomInfoNode.csb"},
+	{name="res/images/RoomView/wait/bg_sameip.png"}
+}
+return m

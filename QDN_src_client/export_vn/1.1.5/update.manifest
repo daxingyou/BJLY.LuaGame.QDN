@@ -1,0 +1,21 @@
+version:5
+version_name:1.1.5
+cdn_url:http://d.laiyagame.com/jinping/res/
+local m={
+	{name="src/app/common/component/sprites/HandTile.lua"},
+	{name="src/app/common/component/sprites/Heads.lua"},
+	{name="src/app/common/component/sprites/TipTile.lua"},
+	{name="src/app/common/utils/GameUtils.lua"},
+	{name="src/app/common/utils/J2LuaSystem.lua"},
+	{name="src/app/game/scenes/RoomScene.lua"},
+	{name="src/app/game/ui/LoginLayer.lua"},
+	{name="src/app/game/ui/main/LayerResultOneRound.lua"},
+	{name="src/app/game/ui/room/AnimationNode.lua"},
+	{name="src/app/game/ui/room/NetconnectTip.lua"},
+	{name="src/app/game/ui/room/OperateNode.lua"},
+	{name="src/app/game/ui/room/PlayerIcon.lua"},
+	{name="src/app/game/ui/room/RoomInfoNode.lua"},
+	{name="src/app/game/ui/room/ServerHandTile.lua"},
+	{name="src/app/game/ui/room/ServerOutTiles.lua"}
+}
+return m
