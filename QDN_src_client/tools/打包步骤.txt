@@ -1,0 +1,39 @@
+
+打包步骤
+
+A.------代码确认
+		config.lua---->DEBUG   测试打印变量
+		app->GameConfig.lua--->GameConfig.URL  连接服务器地址
+		                   --->GameConfig.isGuest 是否是游客
+		                   --->GameConfig.guestID 游客ID
+		                   --->GameConfig.isiOSAppCheck 
+
+		app->game->scenes->LoadingScene.lua
+					        --提审服务器
+					        g_GameConfig.URL     = "http://apilp.laiyagame.cn:56492"
+					        g_GameConfig.isGuest = true
+					        g_GameConfig.isiOSAppCheck = false --ios提审时把它设置为true
+		app->common->db->LocalDB.lua-> clientversion  客户端版本号
+
+		classes->Classes->Gvoice->GcloudVoiceHelper.cpp  #define TARGET_IPHONE_SIMULATOR 0  语言开关
+
+B.------图片资源压缩，合图，lua文件加密
+		执行UI工程下UiProject->res->pngquant.command图片压缩命令
+								  PackTextures.sh 图片合图命令
+		CocosStudio资源重新导入发布
+		CocosBuild资源发布
+
+		执行代码工程下的图片压缩命令res->pngquant.command，主要是对res->srcRes目录下图片进行压缩(如果没有命令 要执行： ruby -e "$(curl --insecure -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install") 安装完成后 执行： brew install pngquant 安装png压缩工具  )
+
+		执行代码工程下的lua文件加密命令res->tools->ios版打包.command，加密完成后把加密文件覆盖掉源文件res->sc->app文件夹覆盖掉src->app文件夹
+
+C.-----复查app的版本号[原则上每次打包增加1]，打包
+		android工程右击->AndroidTools->导出android签名包，签名密钥文件在工程目录下xx.keystore,密码在工程目录下readme.txt中
+		ios：Product->Archive:导出adHoc测试包和提审包
+
+
+
+
+
+
+
