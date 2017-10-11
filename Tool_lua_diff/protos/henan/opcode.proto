@@ -1,0 +1,91 @@
+package pb ;
+
+enum Opcode
+{
+	/////////////////////////////////////////////////////////////////////////////
+	MSG_PING_PONG			    	= 1;  	//心跳包	
+	MSG_LOGIN			 			= 2;  	//登陆GS
+
+	
+	MSG_JOIN_TABLE      			= 3;  	//加入桌子
+	MSG_JOIN_TABLE_BROADCAST      	= 4;  	//加入桌子广播
+	
+	MSG_LEAVE_TABLE      			= 5;  	//离开桌子
+	MSG_LEAVE_TABLE_BROADCAST      	= 6;  	//离开桌子广播
+
+	MSG_BREAK_BROADCAST      		= 7;  	//断线广播
+	MSG_BREAK_BACK_BROADCAST      	= 8;  	//断线重连广播	
+
+	MSG_READY      					= 9;  	//准备
+	MSG_READY_BROADCAST      		= 10;	//准备广播	
+
+
+	MSG_DISMISS_ASK_BROADCAST      	= 12;	//游戏已经开始,请求解散房间给其他人的询问广播
+	MSG_DISMISS_ANSWER      		= 13;	//游戏已经开始,其他人的回应
+	MSG_DISMISS_ANSWER_BROADCAST	= 14;	//游戏已经开始,其他人的回应广播
+	MSG_DISMISS_BROADCAST      		= 15;  	//游戏已经开始,正式解散房间
+
+	MSG_GET_JU_CNT      			= 16;  	//获得局数	
+
+	MSG_GET_RESULT_DETAIL      		= 17;  	//获得算分详情		
+	MSG_RESULT_TOTAL      			= 18;  	//总分数
+	MSG_RESULT_PK      				= 19;  	//每局PK广播	
+
+	MSG_DINGQUE_ASK_BROADCAST      	= 20;	//定缺询问广播
+	MSG_DINGQUE_ANSWER      		= 21;	//定缺回应
+	MSG_DINGQUE_ANSWER_BROADCAST	= 22;	//定缺回应广播
+
+	MSG_DINGPAO_ASK_BROADCAST      	= 23;	//定跑询问广播
+	MSG_DINGPAO_ANSWER      		= 24;	//定跑回应
+	MSG_DINGPAO_ANSWER_BROADCAST	= 25;	//定跑回应广播
+
+
+	/////////////////////////////////////////////////////////////////////////////
+	MSG_ROUND_START_BROADCAST      	= 101;  //一局开始广播
+	MSG_ROUND_RESULT_BROADCAST  	= 102;	//一局结算广播
+
+	MSG_DISPATCH_BROADCAST    		= 103;	//系统发出一张牌给一个玩家广播		
+
+	MSG_OUT    						= 104;	//出牌	
+	MSG_OUT_BROADCAST    			= 105;	//出牌广播
+
+	MSG_OPERATE_ASK_BROADCAST    	= 106;	//操作询问（碰杠胡）
+	MSG_OPERATE_RESULT_BROADCAST  	= 107;	//操作结果（碰杠胡）
+	MSG_OPERATE    					= 108;	//操作（碰杠胡）		
+	MSG_MINGLOU    					= 110;	//听牌	
+	MSG_MINGLOU_BROADCAST    		= 111;	//听牌广播	
+	MSG_MINGLOU_ASK    				= 112;	//听牌询问可丢弃的牌数组
+
+	MSG_ROUND_DISPATCH_BROADCAST      	= 113;  //一局开始发牌广播
+
+
+	/////////////////////////////////////////////////////////////////////////////
+
+	MSG_CHAT      					= 120;  //聊天
+	MSG_CHAT_BROADCAST    			= 121;	//聊天广播	
+
+	MSG_HISTORY_BROADCAST    		= 122;	//历史广播	
+
+	MSG_VOICE_TALK    				= 123;	//语音聊天
+	MSG_VOICE_TALK_BROADCAST    	= 124;	//语音聊天				
+
+	MSG_CHAT_CUSTOM      			= 125;  //输入聊天
+	MSG_CHAT_CUSTOM_BROADCAST    	= 126;	//输入聊天广播	
+
+	MSG_GVOICE_LOGIN      			= 127;  //GVOICE 登录
+	MSG_GVOICE_LOGIN_BROADCAST    	= 128;	//GVOICE 登录通知
+
+	/////////////////////////////////////////////////////////////////////////////	
+	MSG_GAME_END					= 999; //分割线
+	
+	// 1000-1999 为social接口
+	MSG_SOCIAL_BEGIN				= 1000; //分割线
+	
+	MSG_SOCIAL_END				   	= 1999; //分割线
+	
+    MSG_NET_BEGIN                 	= 2000; //分割线
+    
+
+    MSG_NET_END                    	= 2010;
+	//10000-20000为服务器内部通信协议Opcode,不可占用
+}
