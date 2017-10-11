@@ -1,0 +1,723 @@
+<Solution>
+  <PropertyGroup Name="MaJiang" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Folder Name="CommonView">
+            <Project Name="LayerLoading.csd" Type="Layer" />
+            <Project Name="TipError.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="ItemCellCsd">
+            <Project Name="cell_delegateroom.csd" Type="Layer" />
+            <Project Name="CellItemClubRoom.csd" Type="Layer" />
+            <Project Name="CellItemMember.csd" Type="Layer" />
+            <Project Name="CellItemMsg.csd" Type="Layer" />
+            <Project Name="CellitemOneRoundResult.csd" Type="Node" />
+            <Project Name="CellItemRecord.csd" Type="Layer" />
+            <Project Name="CellitemRecordDetail.csd" Type="Layer" />
+            <Project Name="CellitemTotalResult.csd" Type="Node" />
+            <Project Name="CellItmeDetailResult.csd" Type="Node" />
+            <Project Name="ItemCellChat.csd" Type="Layer" />
+            <Project Name="Layer_cell_club.csd" Type="Layer" />
+            <Project Name="Layer_cell_clubrecord.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="LobbyView">
+            <Project Name="CSDPeach1.csd" Type="Node" />
+            <Project Name="Layer_club_clubdetail.csd" Type="Layer" />
+            <Project Name="Layer_club_clubhelp.csd" Type="Layer" />
+            <Project Name="Layer_club_myclub.csd" Type="Layer" />
+            <Project Name="Layer_Club_Record.csd" Type="Layer" />
+            <Project Name="layer_delegateroom.csd" Type="Layer" />
+            <Project Name="layer_delegatesuccess.csd" Type="Layer" />
+            <Project Name="LayerActivity.csd" Type="Layer" />
+            <Project Name="LayerAddCard.csd" Type="Layer" />
+            <Project Name="LayerBinding.csd" Type="Layer" />
+            <Project Name="LayerCluaHelp.csd" Type="Layer" />
+            <Project Name="LayerClubInfo.csd" Type="Layer" />
+            <Project Name="LayerFeedback.csd" Type="Layer" />
+            <Project Name="LayerJoinRoom.csd" Type="Layer" />
+            <Project Name="LayerMessage.csd" Type="Layer" />
+            <Project Name="LayerRecord.csd" Type="Layer" />
+            <Project Name="LayerRule.csd" Type="Layer" />
+            <Project Name="LayerSelfInfo.csd" Type="Layer" />
+            <Project Name="LayerSetting.csd" Type="Layer" />
+            <Project Name="LayerShare.csd" Type="Layer" />
+            <Project Name="LobbyMain.csd" Type="Layer" />
+            <Project Name="PlayAgreement.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="ResultView">
+            <Project Name="LayerResultDetail.csd" Type="Layer" />
+            <Project Name="LayerResultFinal.csd" Type="Layer" />
+            <Project Name="LayerResultOneRound.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="RoomView">
+            <Project Name="AnimationNode.csd" Type="Layer" />
+            <Project Name="DingQue.csd" Type="Layer" />
+            <Project Name="DismissRoom.csd" Type="Layer" />
+            <Project Name="Layer_fanpaiji.csd" Type="Layer" />
+            <Project Name="LayerChat.csd" Type="Layer" />
+            <Project Name="PlayerIcon.csd" Type="Layer" />
+            <Project Name="RoomInfoNode.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="SubView">
+            <Project Name="Layer_NoRecord.csd" Type="Layer" />
+            <Project Name="Layer_reward.csd" Type="Layer" />
+            <Project Name="LayerBindConfirm.csd" Type="Layer" />
+            <Project Name="LayerLogoutConfirm.csd" Type="Layer" />
+            <Project Name="LayerUpdate.csd" Type="Layer" />
+            <Project Name="LayerWeiXinShare.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="FZZZHONGHJW.TTF" />
+        </Folder>
+        <Folder Name="images">
+          <Folder Name="achievement">
+            <Image Name="bg_long_line.png" />
+            <Image Name="bg_wuzhanji_emoji.png" />
+            <Image Name="bg_zhanji.png" />
+            <Image Name="bg_zhanji_landlord.png" />
+            <Image Name="bg_zhanjixiangqing.png" />
+            <Image Name="btn_luxiang.png" />
+            <Image Name="btn_luxiang_down.png" />
+            <Image Name="btn_video.png" />
+            <Image Name="btn_zj_bantouming.png" />
+            <Image Name="btn_zj_quantouming.png" />
+            <Image Name="btn_zjxq_bantouming.png" />
+            <Image Name="btn_zjxq_quantouming.png" />
+            <Image Name="exit.png" />
+            <Image Name="exit1.png" />
+            <Image Name="icon_arrows.png" />
+            <Image Name="itme_line.png" />
+            <Image Name="title_combat_gains.png" />
+            <Image Name="title_zhanji.png" />
+          </Folder>
+          <Folder Name="club">
+            <Image Name="bg_club.png" />
+            <Image Name="bg_club_shenqing.png" />
+            <Image Name="bg_search.png" />
+            <Image Name="bg_search_tiaokuang.png" />
+            <Image Name="bg_sousuo_club.png" />
+            <Image Name="bg_tankuang_club.png" />
+            <Image Name="bg_tankuang_membership.png" />
+            <Image Name="btn_application.png" />
+            <Image Name="btn_club_establish.png" />
+            <Image Name="btn_club_message.png" />
+            <Image Name="btn_explain.png" />
+            <Image Name="btn_find.png" />
+            <Image Name="btn_find_disable.png" />
+            <Image Name="btn_information_club.png" />
+            <Image Name="btn_information_club_checked.png" />
+            <Image Name="btn_jionclub.png" />
+            <Image Name="btn_join_room.png" />
+            <Image Name="btn_membership_club.png" />
+            <Image Name="btn_membership_club_checked.png" />
+            <Image Name="btn_membership_invitation.png" />
+            <Image Name="btn_refresh.png" />
+            <Image Name="btn_revocation.png" />
+            <Image Name="btn_sqtc.png" />
+            <Image Name="title_application_record.png" />
+            <Image Name="title_essentialinformation_checked.png" />
+            <Image Name="title_joinclub.png" />
+            <Image Name="title_joinclub_checked.png" />
+            <Image Name="title_membership.png" />
+            <Image Name="title_membership_checked.png" />
+            <Image Name="title_myclub.png" />
+            <Image Name="title_myclub_checked.png" />
+            <Image Name="title_title_essentialinformation.png" />
+          </Folder>
+          <Folder Name="Common">
+            <Image Name="bg_short_line.png" />
+            <Image Name="bg_tankuang_big.png" />
+            <Image Name="bg_tankuang_dkfj.png" />
+            <Image Name="bg_tankuang_jieshuan.png" />
+            <Image Name="bg_tankuang_little.png" />
+            <Image Name="bg_tankuang_middle.png" />
+            <Image Name="bg_tishi_tankuang.png" />
+            <Image Name="bg_wanfa.png" />
+            <Image Name="bg_wanfa_left.png" />
+            <Image Name="bg_zhanji.png" />
+            <Image Name="btn_cancle.png" />
+            <Image Name="btn_close.png" />
+            <Image Name="btn_confirm.png" />
+            <Image Name="commonccz_selected.png" />
+            <Image Name="commonccz_unselected.png" />
+            <Image Name="default_head.png" />
+            <Image Name="frame_head.png" />
+            <Image Name="icon_diamond.png" />
+            <Image Name="information_bg.png" />
+            <Image Name="title_bg.png" />
+            <Image Name="title_qiandongnan.png" />
+            <Image Name="unchange.png" />
+          </Folder>
+          <Folder Name="delegateRoom">
+            <Image Name="bg_dkfj.png" />
+            <Image Name="bg_headportrait.png" />
+            <Image Name="bg_tankuang_dkfj.png" />
+            <Image Name="bg_tankuang_little.png" />
+            <Image Name="bg_wait.png" />
+            <Image Name="btn_cjfj.png" />
+            <Image Name="btn_cjfj_down.png" />
+            <Image Name="btn_confirm.png" />
+            <Image Name="btn_dissolve.png" />
+            <Image Name="btn_dkfj.png" />
+            <Image Name="btn_dkfj_down.png" />
+            <Image Name="btn_dkjl.png" />
+            <Image Name="btn_dkjl_down.png" />
+            <Image Name="btn_invite.png" />
+            <Image Name="btn_refresh.png" />
+            <Image Name="btn_replace_invite.png" />
+            <Image Name="btn_replace_invite_down.png" />
+            <Image Name="btn_replace_share.png" />
+            <Image Name="btn_replace_share_down.png" />
+            <Image Name="btn_share.png" />
+            <Image Name="tishi.jpg" />
+            <Image Name="title_dkjl.png" />
+            <Image Name="title_dkjl_checked.png" />
+            <Image Name="title_reminder.png" />
+            <Image Name="title_ykf_checked.png" />
+            <Image Name="title_ykfj.png" />
+            <Image Name="ykfj_bg.png" />
+          </Folder>
+          <Folder Name="layer_result">
+            <Image Name="bg_bantouming.png" />
+            <Image Name="bg_duankai.png" />
+            <Image Name="bg_fanpaiji.png" />
+            <Image Name="bg_grade.png" />
+            <Image Name="bg_hupaifangshi_big.png" />
+            <Image Name="bg_paixing_mine.png" />
+            <Image Name="bg_paixing_others.png" />
+            <Image Name="bg_pk_touxiang.png" />
+            <Image Name="bg_rule_jiesuan.png" />
+            <Image Name="bg_rule_zhuomian.png" />
+            <Image Name="bg_short_line.png" />
+            <Image Name="bg_suanfen_grade.png" />
+            <Image Name="bg_suanfen_mine.png" />
+            <Image Name="bg_suanfen_others.png" />
+            <Image Name="bg_suanfen_touxiang.png" />
+            <Image Name="bg_tankuang_jieshuan.png" />
+            <Image Name="bg_tankuang_jiexuan.png" />
+            <Image Name="bg_tankuang_zhanji.png" />
+            <Image Name="bg_vertical_line.png" />
+            <Image Name="bg_zhuangtai.png" />
+            <Image Name="btn_fhdt.png" />
+            <Image Name="btn_fhsy.png" />
+            <Image Name="btn_jiantou_shen.png" />
+            <Image Name="btn_jiantou_suo.png" />
+            <Image Name="btn_jxyx.png" />
+            <Image Name="btn_sfxq.png" />
+            <Image Name="btn_share_little.png" />
+            <Image Name="cad_fanpaiji.png" />
+            <Image Name="icon_dayingjia.png" />
+            <Image Name="icon_fangzhu.png" />
+            <Image Name="icon_zhuang.png" />
+            <Image Name="ingame_default_head.png" />
+            <Image Name="jiesuan_frame_head.png" />
+            <Image Name="jiesuan_icon_club.png" />
+            <Image Name="title_combat_gains.png" />
+            <Image Name="title_fanpaiji.png" />
+            <Image Name="title_huangzhuang.png" />
+            <Image Name="title_pingju.png" />
+            <Image Name="title_title_lose.png" />
+            <Image Name="title_win.png" />
+          </Folder>
+          <Folder Name="LobbyMain">
+            <Folder Name="LobbyBtn">
+              <Image Name="btn_activity.png" />
+              <Image Name="btn_activity_down.png" />
+              <Image Name="btn_add.png" />
+              <Image Name="btn_banfding.png" />
+              <Image Name="btn_banfding_down.png" />
+              <Image Name="btn_dating_club.png" />
+              <Image Name="btn_dating_playground.png" />
+              <Image Name="btn_fankui.png" />
+              <Image Name="btn_fankui_down.png" />
+              <Image Name="btn_message.png" />
+              <Image Name="btn_message_down.png" />
+              <Image Name="btn_set.png" />
+              <Image Name="btn_set_down.png" />
+              <Image Name="btn_share.png" />
+              <Image Name="btn_share_down.png" />
+              <Image Name="btn_wanfa.png" />
+              <Image Name="btn_wanfa_down.png" />
+              <Image Name="btn_zhanji.png" />
+              <Image Name="btn_zhanji_down.png" />
+              <Image Name="button_found.png" />
+              <Image Name="button_join.png" />
+              <Image Name="button_return_new.png" />
+            </Folder>
+            <Image Name="bg_add.png" />
+            <Image Name="bg_advertisment.png" />
+            <Image Name="bg_Homepage_new.png" />
+            <Image Name="bg_tongzhi.png" />
+            <Image Name="btn_add.png" />
+            <Image Name="default_head.png" />
+            <Image Name="frame_head.png" />
+            <Image Name="icon_laba.png" />
+            <Image Name="img_transparent.png" />
+            <Image Name="ingame_default_head.png" />
+            <Image Name="slogan_tianzhu.png" />
+          </Folder>
+          <Folder Name="LobbyView">
+            <Folder Name="Binding">
+              <Image Name="bg_input.png" />
+              <Image Name="btn_bound.png" />
+              <Image Name="btn_bound_disable.png" />
+            </Folder>
+            <Folder Name="JoinRoom">
+              <Image Name="btn_0.png" />
+              <Image Name="btn_1.png" />
+              <Image Name="btn_2.png" />
+              <Image Name="btn_3.png" />
+              <Image Name="btn_4.png" />
+              <Image Name="btn_5.png" />
+              <Image Name="btn_6.png" />
+              <Image Name="btn_7.png" />
+              <Image Name="btn_8.png" />
+              <Image Name="btn_9.png" />
+              <Image Name="btn_delete.png" />
+              <Image Name="btn_rewrite.png" />
+              <Image Name="frame_numeber.png" />
+              <Image Name="number.png" />
+              <Image Name="title_jrfj.png" />
+            </Folder>
+            <Folder Name="Message" />
+            <Folder Name="Rule">
+              <Image Name="createroom_2D.png" />
+              <Image Name="createroom_2D_normal.png" />
+              <Image Name="createroom_3D.png" />
+              <Image Name="createroom_3D_normal.png" />
+              <Image Name="createroom_4D.png" />
+              <Image Name="createroom_4D_normal.png" />
+              <Image Name="createroom_button_bg.png" />
+              <Image Name="txt_jp_guize1.png" />
+              <Image Name="txt_jp_guize2.png" />
+              <Image Name="txt_lp_guize1.png" />
+              <Image Name="txt_lp_guize2.png" />
+              <Image Name="txt_tz_guize1.png" />
+              <Image Name="txt_tz_guize2.png" />
+            </Folder>
+            <Folder Name="Setting">
+              <Image Name="bar_slider.png" />
+              <Image Name="bg_slider.png" />
+              <Image Name="bg_zhuomian_blue.png" />
+              <Image Name="bg_zhuomian_green.png" />
+              <Image Name="btn_danxuan_checked.png" />
+              <Image Name="btn_danxuan_uncheked.png" />
+              <Image Name="btn_fhdt.png" />
+              <Image Name="btn_jsfj.png" />
+              <Image Name="btn_Logout.png" />
+              <Image Name="btn_sound.png" />
+              <Image Name="btn_sound_checked.png" />
+              <Image Name="btn_zhuomian.png" />
+              <Image Name="btn_zhuomian_checked.png" />
+              <Image Name="icon_shazi_word.png" />
+              <Image Name="mj_bg_blue.png" />
+              <Image Name="mj_bg_green.png" />
+              <Image Name="title_setting.png" />
+            </Folder>
+            <Folder Name="Share">
+              <Image Name="bg_QR_code.png" />
+              <Image Name="btn_friendcircle.png" />
+              <Image Name="btn_friendcircle_down.png" />
+              <Image Name="btn_share.png" />
+              <Image Name="btn_WeChat.png" />
+              <Image Name="btn_WeChat_down.png" />
+              <Image Name="pho_erweima.png" />
+              <Image Name="pho_logo.png" />
+              <Image Name="txt_xzyx.png" />
+            </Folder>
+            <Folder Name="title">
+              <Image Name="title_activity.png" />
+              <Image Name="title_applicationsrecord.png" />
+              <Image Name="title_bound.png" />
+              <Image Name="title_cjfj.png" />
+              <Image Name="title_combat_gains.png" />
+              <Image Name="title_diamond.png" />
+              <Image Name="title_dkjl.png" />
+              <Image Name="title_dkjl_checked.png" />
+              <Image Name="title_feed_back.png" />
+              <Image Name="title_information_cue.png" />
+              <Image Name="title_jiesuan.png" />
+              <Image Name="title_jrfj.png" />
+              <Image Name="title_jssq.png" />
+              <Image Name="title_lpmj.png" />
+              <Image Name="title_news.png" />
+              <Image Name="title_personal_details.png" />
+              <Image Name="title_playing_method.png" />
+              <Image Name="title_reminder.png" />
+              <Image Name="title_setting.png" />
+              <Image Name="title_share.png" />
+              <Image Name="title_ykf_checked.png" />
+              <Image Name="title_ykfj.png" />
+              <Image Name="title_yxgx.png" />
+              <Image Name="title_zhanji.png" />
+            </Folder>
+            <Image Name="bg_activity.png" />
+            <Image Name="btn_copy.png" />
+            <Image Name="btn_time.png" />
+            <Image Name="spot_bright.png" />
+            <Image Name="spot_dark.png" />
+          </Folder>
+          <Folder Name="plist">
+            <PlistParticleFile Name="lizi_bgjinglinglizi.plist" />
+            <PlistParticleFile Name="lizi_bgjinglingyezi1.plist" />
+            <PlistParticleFile Name="peach1.plist" />
+            <PlistParticleFile Name="peach2.plist" />
+          </Folder>
+          <Folder Name="RoomView">
+            <Folder Name="Chat">
+              <Folder Name="emoji">
+                <Image Name="emoji_1.png" />
+                <Image Name="emoji_1_0.png" />
+                <Image Name="emoji_1_1.png" />
+                <Image Name="emoji_1_2.png" />
+                <Image Name="emoji_1_3.png" />
+                <Image Name="emoji_1_4.png" />
+                <Image Name="emoji_1_5.png" />
+                <Image Name="emoji_1_6.png" />
+                <Image Name="emoji_1_7.png" />
+                <Image Name="emoji_10.png" />
+                <Image Name="emoji_10_0.png" />
+                <Image Name="emoji_10_1.png" />
+                <Image Name="emoji_10_2.png" />
+                <Image Name="emoji_10_3.png" />
+                <Image Name="emoji_10_4.png" />
+                <Image Name="emoji_10_5.png" />
+                <Image Name="emoji_10_6.png" />
+                <Image Name="emoji_10_7.png" />
+                <Image Name="emoji_10_8.png" />
+                <Image Name="emoji_11.png" />
+                <Image Name="emoji_11_0.png" />
+                <Image Name="emoji_11_1.png" />
+                <Image Name="emoji_11_2.png" />
+                <Image Name="emoji_11_3.png" />
+                <Image Name="emoji_11_4.png" />
+                <Image Name="emoji_11_5.png" />
+                <Image Name="emoji_11_6.png" />
+                <Image Name="emoji_11_7.png" />
+                <Image Name="emoji_11_8.png" />
+                <Image Name="emoji_12.png" />
+                <Image Name="emoji_12_0.png" />
+                <Image Name="emoji_12_1.png" />
+                <Image Name="emoji_12_2.png" />
+                <Image Name="emoji_12_3.png" />
+                <Image Name="emoji_13.png" />
+                <Image Name="emoji_13_0.png" />
+                <Image Name="emoji_13_1.png" />
+                <Image Name="emoji_13_2.png" />
+                <Image Name="emoji_13_3.png" />
+                <Image Name="emoji_14.png" />
+                <Image Name="emoji_14_0.png" />
+                <Image Name="emoji_14_1.png" />
+                <Image Name="emoji_15.png" />
+                <Image Name="emoji_15_0.png" />
+                <Image Name="emoji_15_1.png" />
+                <Image Name="emoji_2.png" />
+                <Image Name="emoji_2_0.png" />
+                <Image Name="emoji_2_1.png" />
+                <Image Name="emoji_2_2.png" />
+                <Image Name="emoji_3.png" />
+                <Image Name="emoji_3_0.png" />
+                <Image Name="emoji_3_1.png" />
+                <Image Name="emoji_4.png" />
+                <Image Name="emoji_4_0.png" />
+                <Image Name="emoji_4_1.png" />
+                <Image Name="emoji_4_2.png" />
+                <Image Name="emoji_4_3.png" />
+                <Image Name="emoji_4_4.png" />
+                <Image Name="emoji_4_5.png" />
+                <Image Name="emoji_4_6.png" />
+                <Image Name="emoji_4_7.png" />
+                <Image Name="emoji_4_8.png" />
+                <Image Name="emoji_5.png" />
+                <Image Name="emoji_5_0.png" />
+                <Image Name="emoji_5_1.png" />
+                <Image Name="emoji_5_2.png" />
+                <Image Name="emoji_5_3.png" />
+                <Image Name="emoji_5_4.png" />
+                <Image Name="emoji_5_5.png" />
+                <Image Name="emoji_6.png" />
+                <Image Name="emoji_6_0.png" />
+                <Image Name="emoji_6_1.png" />
+                <Image Name="emoji_6_10.png" />
+                <Image Name="emoji_6_11.png" />
+                <Image Name="emoji_6_12.png" />
+                <Image Name="emoji_6_2.png" />
+                <Image Name="emoji_6_3.png" />
+                <Image Name="emoji_6_4.png" />
+                <Image Name="emoji_6_5.png" />
+                <Image Name="emoji_6_6.png" />
+                <Image Name="emoji_6_7.png" />
+                <Image Name="emoji_6_8.png" />
+                <Image Name="emoji_6_9.png" />
+                <Image Name="emoji_7.png" />
+                <Image Name="emoji_7_0.png" />
+                <Image Name="emoji_7_1.png" />
+                <Image Name="emoji_7_2.png" />
+                <Image Name="emoji_7_3.png" />
+                <Image Name="emoji_8.png" />
+                <Image Name="emoji_8_0.png" />
+                <Image Name="emoji_8_1.png" />
+                <Image Name="emoji_8_2.png" />
+                <Image Name="emoji_8_3.png" />
+                <Image Name="emoji_8_4.png" />
+                <Image Name="emoji_9.png" />
+                <Image Name="emoji_9_0.png" />
+                <Image Name="emoji_9_1.png" />
+                <Image Name="emoji_9_2.png" />
+                <Image Name="emoji_9_3.png" />
+                <Image Name="emoji_9_4.png" />
+                <Image Name="emoji_9_5.png" />
+                <Image Name="emoji_9_6.png" />
+                <Image Name="emoji_9_7.png" />
+                <Image Name="emoji_9_8.png" />
+              </Folder>
+              <PlistImageFolder Image="emoji.png" PListFile="emoji.plist" Name=".emoji_PList.Dir">
+                <PlistImageFile Name="emoji_1.png" Key="emoji_1.png" />
+                <PlistImageFile Name="emoji_1_0.png" Key="emoji_1_0.png" />
+                <PlistImageFile Name="emoji_1_1.png" Key="emoji_1_1.png" />
+                <PlistImageFile Name="emoji_1_2.png" Key="emoji_1_2.png" />
+                <PlistImageFile Name="emoji_1_3.png" Key="emoji_1_3.png" />
+                <PlistImageFile Name="emoji_1_4.png" Key="emoji_1_4.png" />
+                <PlistImageFile Name="emoji_1_5.png" Key="emoji_1_5.png" />
+                <PlistImageFile Name="emoji_1_6.png" Key="emoji_1_6.png" />
+                <PlistImageFile Name="emoji_1_7.png" Key="emoji_1_7.png" />
+                <PlistImageFile Name="emoji_10.png" Key="emoji_10.png" />
+                <PlistImageFile Name="emoji_10_0.png" Key="emoji_10_0.png" />
+                <PlistImageFile Name="emoji_10_1.png" Key="emoji_10_1.png" />
+                <PlistImageFile Name="emoji_10_2.png" Key="emoji_10_2.png" />
+                <PlistImageFile Name="emoji_10_3.png" Key="emoji_10_3.png" />
+                <PlistImageFile Name="emoji_10_4.png" Key="emoji_10_4.png" />
+                <PlistImageFile Name="emoji_10_5.png" Key="emoji_10_5.png" />
+                <PlistImageFile Name="emoji_10_6.png" Key="emoji_10_6.png" />
+                <PlistImageFile Name="emoji_10_7.png" Key="emoji_10_7.png" />
+                <PlistImageFile Name="emoji_10_8.png" Key="emoji_10_8.png" />
+                <PlistImageFile Name="emoji_11.png" Key="emoji_11.png" />
+                <PlistImageFile Name="emoji_11_0.png" Key="emoji_11_0.png" />
+                <PlistImageFile Name="emoji_11_1.png" Key="emoji_11_1.png" />
+                <PlistImageFile Name="emoji_11_2.png" Key="emoji_11_2.png" />
+                <PlistImageFile Name="emoji_11_3.png" Key="emoji_11_3.png" />
+                <PlistImageFile Name="emoji_11_4.png" Key="emoji_11_4.png" />
+                <PlistImageFile Name="emoji_11_5.png" Key="emoji_11_5.png" />
+                <PlistImageFile Name="emoji_11_6.png" Key="emoji_11_6.png" />
+                <PlistImageFile Name="emoji_11_7.png" Key="emoji_11_7.png" />
+                <PlistImageFile Name="emoji_11_8.png" Key="emoji_11_8.png" />
+                <PlistImageFile Name="emoji_12.png" Key="emoji_12.png" />
+                <PlistImageFile Name="emoji_12_0.png" Key="emoji_12_0.png" />
+                <PlistImageFile Name="emoji_12_1.png" Key="emoji_12_1.png" />
+                <PlistImageFile Name="emoji_12_2.png" Key="emoji_12_2.png" />
+                <PlistImageFile Name="emoji_12_3.png" Key="emoji_12_3.png" />
+                <PlistImageFile Name="emoji_13.png" Key="emoji_13.png" />
+                <PlistImageFile Name="emoji_13_0.png" Key="emoji_13_0.png" />
+                <PlistImageFile Name="emoji_13_1.png" Key="emoji_13_1.png" />
+                <PlistImageFile Name="emoji_13_2.png" Key="emoji_13_2.png" />
+                <PlistImageFile Name="emoji_13_3.png" Key="emoji_13_3.png" />
+                <PlistImageFile Name="emoji_14.png" Key="emoji_14.png" />
+                <PlistImageFile Name="emoji_14_0.png" Key="emoji_14_0.png" />
+                <PlistImageFile Name="emoji_14_1.png" Key="emoji_14_1.png" />
+                <PlistImageFile Name="emoji_15.png" Key="emoji_15.png" />
+                <PlistImageFile Name="emoji_15_0.png" Key="emoji_15_0.png" />
+                <PlistImageFile Name="emoji_15_1.png" Key="emoji_15_1.png" />
+                <PlistImageFile Name="emoji_2.png" Key="emoji_2.png" />
+                <PlistImageFile Name="emoji_2_0.png" Key="emoji_2_0.png" />
+                <PlistImageFile Name="emoji_2_1.png" Key="emoji_2_1.png" />
+                <PlistImageFile Name="emoji_2_2.png" Key="emoji_2_2.png" />
+                <PlistImageFile Name="emoji_3.png" Key="emoji_3.png" />
+                <PlistImageFile Name="emoji_3_0.png" Key="emoji_3_0.png" />
+                <PlistImageFile Name="emoji_3_1.png" Key="emoji_3_1.png" />
+                <PlistImageFile Name="emoji_4.png" Key="emoji_4.png" />
+                <PlistImageFile Name="emoji_4_0.png" Key="emoji_4_0.png" />
+                <PlistImageFile Name="emoji_4_1.png" Key="emoji_4_1.png" />
+                <PlistImageFile Name="emoji_4_2.png" Key="emoji_4_2.png" />
+                <PlistImageFile Name="emoji_4_3.png" Key="emoji_4_3.png" />
+                <PlistImageFile Name="emoji_4_4.png" Key="emoji_4_4.png" />
+                <PlistImageFile Name="emoji_4_5.png" Key="emoji_4_5.png" />
+                <PlistImageFile Name="emoji_4_6.png" Key="emoji_4_6.png" />
+                <PlistImageFile Name="emoji_4_7.png" Key="emoji_4_7.png" />
+                <PlistImageFile Name="emoji_4_8.png" Key="emoji_4_8.png" />
+                <PlistImageFile Name="emoji_5.png" Key="emoji_5.png" />
+                <PlistImageFile Name="emoji_5_0.png" Key="emoji_5_0.png" />
+                <PlistImageFile Name="emoji_5_1.png" Key="emoji_5_1.png" />
+                <PlistImageFile Name="emoji_5_2.png" Key="emoji_5_2.png" />
+                <PlistImageFile Name="emoji_5_3.png" Key="emoji_5_3.png" />
+                <PlistImageFile Name="emoji_5_4.png" Key="emoji_5_4.png" />
+                <PlistImageFile Name="emoji_5_5.png" Key="emoji_5_5.png" />
+                <PlistImageFile Name="emoji_6.png" Key="emoji_6.png" />
+                <PlistImageFile Name="emoji_6_0.png" Key="emoji_6_0.png" />
+                <PlistImageFile Name="emoji_6_1.png" Key="emoji_6_1.png" />
+                <PlistImageFile Name="emoji_6_10.png" Key="emoji_6_10.png" />
+                <PlistImageFile Name="emoji_6_11.png" Key="emoji_6_11.png" />
+                <PlistImageFile Name="emoji_6_12.png" Key="emoji_6_12.png" />
+                <PlistImageFile Name="emoji_6_2.png" Key="emoji_6_2.png" />
+                <PlistImageFile Name="emoji_6_3.png" Key="emoji_6_3.png" />
+                <PlistImageFile Name="emoji_6_4.png" Key="emoji_6_4.png" />
+                <PlistImageFile Name="emoji_6_5.png" Key="emoji_6_5.png" />
+                <PlistImageFile Name="emoji_6_6.png" Key="emoji_6_6.png" />
+                <PlistImageFile Name="emoji_6_7.png" Key="emoji_6_7.png" />
+                <PlistImageFile Name="emoji_6_8.png" Key="emoji_6_8.png" />
+                <PlistImageFile Name="emoji_6_9.png" Key="emoji_6_9.png" />
+                <PlistImageFile Name="emoji_7.png" Key="emoji_7.png" />
+                <PlistImageFile Name="emoji_7_0.png" Key="emoji_7_0.png" />
+                <PlistImageFile Name="emoji_7_1.png" Key="emoji_7_1.png" />
+                <PlistImageFile Name="emoji_7_2.png" Key="emoji_7_2.png" />
+                <PlistImageFile Name="emoji_7_3.png" Key="emoji_7_3.png" />
+                <PlistImageFile Name="emoji_8.png" Key="emoji_8.png" />
+                <PlistImageFile Name="emoji_8_0.png" Key="emoji_8_0.png" />
+                <PlistImageFile Name="emoji_8_1.png" Key="emoji_8_1.png" />
+                <PlistImageFile Name="emoji_8_2.png" Key="emoji_8_2.png" />
+                <PlistImageFile Name="emoji_8_3.png" Key="emoji_8_3.png" />
+                <PlistImageFile Name="emoji_8_4.png" Key="emoji_8_4.png" />
+                <PlistImageFile Name="emoji_9.png" Key="emoji_9.png" />
+                <PlistImageFile Name="emoji_9_0.png" Key="emoji_9_0.png" />
+                <PlistImageFile Name="emoji_9_1.png" Key="emoji_9_1.png" />
+                <PlistImageFile Name="emoji_9_2.png" Key="emoji_9_2.png" />
+                <PlistImageFile Name="emoji_9_3.png" Key="emoji_9_3.png" />
+                <PlistImageFile Name="emoji_9_4.png" Key="emoji_9_4.png" />
+                <PlistImageFile Name="emoji_9_5.png" Key="emoji_9_5.png" />
+              </PlistImageFolder>
+              <Image Name="bg_chat.png" />
+              <Image Name="btn_send.png" />
+              <Image Name="btn_send_down.png" />
+            </Folder>
+            <Folder Name="DismissRoom">
+              <Image Name="btn_agree.png" />
+              <Image Name="btn_refuse.png" />
+            </Folder>
+            <Folder Name="icon">
+              <Folder Name="animate">
+                <Folder Name="startRecord">
+                  <Image Name="0.png" />
+                  <Image Name="1.png" />
+                  <Image Name="2.png" />
+                  <Image Name="3.png" />
+                  <Image Name="4.png" />
+                  <Image Name="5.png" />
+                  <Image Name="6.png" />
+                  <Image Name="cancel.png" />
+                  <Image Name="recordIcon.png" />
+                  <Image Name="timeShort.png" />
+                  <Image Name="voiceBackGround.png" />
+                </Folder>
+                <Folder Name="voice">
+                  <Image Name="0.png" />
+                  <Image Name="1.png" />
+                  <Image Name="2.png" />
+                  <Image Name="3.png" />
+                </Folder>
+                <PlistImageFolder Image="Voice.png" PListFile="Voice.plist" Name=".Voice_PList.Dir">
+                  <PlistImageFile Name="animate_voice_0.png" Key="animate/voice/0.png" />
+                  <PlistImageFile Name="animate_voice_1.png" Key="animate/voice/1.png" />
+                  <PlistImageFile Name="animate_voice_2.png" Key="animate/voice/2.png" />
+                  <PlistImageFile Name="animate_voice_3.png" Key="animate/voice/3.png" />
+                </PlistImageFolder>
+              </Folder>
+              <Image Name="3.png" />
+              <Image Name="4.png" />
+              <Image Name="bg_cad_fanpaiji.png" />
+              <Image Name="chatbg_ld.png" />
+              <Image Name="diamond1.png" />
+              <Image Name="effect_fanpaiji.png" />
+              <Image Name="exit.png" />
+              <Image Name="exit1.png" />
+              <Image Name="floor_04.png" />
+              <Image Name="icon_hua.png" />
+              <Image Name="loading_bar_bg.png" />
+              <Image Name="mj_37.png" />
+              <Image Name="mj_bg1.png" />
+              <Image Name="mj_bg2.png" />
+              <Image Name="mj_bg3.png" />
+              <Image Name="mj_bg4.png" />
+              <Image Name="mj_bg5.png" />
+              <Image Name="mj_bg6.png" />
+              <Image Name="mj_bg7.png" />
+              <Image Name="qd6_0021_.png" />
+              <Image Name="t_hua.png" />
+              <Image Name="t_minglou.png" />
+              <Image Name="user_frame.png" />
+              <Image Name="Z_nobody.png" />
+              <Image Name="Z_offline.png" />
+              <Image Name="Z_zhunbei2.png" />
+              <Image Name="Z_zhunbei2dianji.png" />
+              <Image Name="Z_zhunbeizhuangt.png" />
+              <Image Name="zhuang.png" />
+            </Folder>
+            <Folder Name="play">
+              <Image Name="bg_chat_frame.png" />
+              <Image Name="bg_kongjian.png" />
+              <Image Name="bg_mahjong_grade.png" />
+              <Image Name="btn_tiao.png" />
+              <Image Name="btn_tong.png" />
+              <Image Name="btn_wan.png" />
+              <Image Name="frame_head.png" />
+              <Image Name="frame_head_youxi.png" />
+              <Image Name="icon_baoting.png" />
+              <Image Name="icon_bofang.png" />
+              <Image Name="icon_bofang_down.png" />
+              <Image Name="icon_chong.png" />
+              <Image Name="icon_fanhui.png" />
+              <Image Name="icon_fanhui_down.png" />
+              <Image Name="icon_kuaijin.png" />
+              <Image Name="icon_kuaijin_down.png" />
+              <Image Name="icon_kuaitui.png" />
+              <Image Name="icon_kuaitui_down.png" />
+              <Image Name="icon_tiao.png" />
+              <Image Name="icon_tingpai.png" />
+              <Image Name="icon_tong.png" />
+              <Image Name="icon_wan.png" />
+              <Image Name="icon_zanting.png" />
+              <Image Name="icon_zanting_down.png" />
+              <Image Name="icon_ze.png" />
+              <Image Name="ingame_default_head.png" />
+              <Image Name="qd1_0013_z.png" />
+              <Image Name="qd1_0014_h.png" />
+              <Image Name="qd1_0015_tx.png" />
+              <Image Name="qd1_0016_xd.png" />
+              <Image Name="qd6_0034_zuo.png" />
+              <Image Name="qd6_0034-143.png" />
+              <Image Name="s143.png" />
+              <Image Name="touxiang.png" />
+              <Image Name="txt_dingquezhong.png" />
+              <Image Name="txt_hint.png" />
+            </Folder>
+            <Folder Name="wait">
+              <Image Name="bg_Articlepower.png" />
+              <Image Name="bg_power.png" />
+              <Image Name="bg_sameip.png" />
+              <Image Name="bg_tishipan.png" />
+              <Image Name="bg_title.png" />
+              <Image Name="bg_wifi.png" />
+              <Image Name="btn_yaoqing.png" />
+              <Image Name="btn_yaoqing_down.png" />
+              <Image Name="btready.png" />
+              <Image Name="btready1.png" />
+              <Image Name="exit.png" />
+              <Image Name="exit1.png" />
+              <Image Name="frame_head.png" />
+              <Image Name="icon__not_trumpet.png" />
+              <Image Name="icon_chat.png" />
+              <Image Name="icon_set.png" />
+              <Image Name="icon_trumpet.png" />
+              <Image Name="icon_voice.png" />
+              <Image Name="icon_zhunbei.png" />
+              <Image Name="qd1_0016_xd.png" />
+              <Image Name="qd1_0017_zhongdi.png" />
+              <Image Name="qd1_0018_bd.png" />
+              <Image Name="qd6_0030_jiesan.png" />
+              <Image Name="qd6_0031_jiesan1.png" />
+              <Image Name="ready.png" />
+              <Image Name="reminder_east.png" />
+              <Image Name="reminder_north.png" />
+              <Image Name="reminder_south.png" />
+              <Image Name="reminder_west.png" />
+              <Image Name="zz1.png" />
+            </Folder>
+          </Folder>
+          <File Name="pngquant.command" />
+          <File Name="pngquant.sh" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
